@@ -1,0 +1,47 @@
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+ 
+<title>Employees</title>
+ 
+ 
+<style>
+div.mytable {
+  margin: auto;
+  width: 1020px;
+  padding: 10px; 
+}
+</style>
+ 
+ 
+ 
+ 
+<div class="mytable">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Employees</li>
+  </ol>
+</nav>
+</div>
+ 
+   <table class="table table-striped table-primary">
+    
+    <thead class="ttop">
+        <tr class="table-info">
+            <td width="20px"><b> Type</b></td>
+            <td><b>Task</b> </td>
+            <td><b>Command</b> </td>
+            <td><b>Coutnry</b> </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="empl, iStat : ${sheetRows}" th:style="${iStat.odd}? 'font-weight: normal;'">
+             
+            <td width="20px" th:text="${empl.firstName}">
+            </td><td th:text="${empl.lastName}">
+            </td><td th:text="${empl.gender}">
+            </td><td th:text="${empl.country}">
+             </td><td><input type="submit" value="Exceucte">
+       </td></tr>
+     </tbody>
+    </table>
