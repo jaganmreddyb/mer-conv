@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jul 28 13:44:58 SGT 2019
+https\://repo.maven.apache.org/maven2/.lastUpdated=1564292698049
+https\://repo.spring.io/libs-snapshot/.error=Could not transfer artifact org.springframework.data\:spring-data-commons\:jar\:2.0.8.RELEASE from/to spring-libs-snapshot (https\://repo.spring.io/libs-snapshot)\: The operation was cancelled.
+@default-spring-libs-release-https\://repo.spring.io/libs-release/.lastUpdated=1564292479718
+https\://repo.spring.io/libs-release/.error=Could not transfer artifact org.springframework.data\:spring-data-commons\:jar\:2.0.8.RELEASE from/to spring-libs-release (https\://repo.spring.io/libs-release)\: The operation was cancelled.
+@default-spring-libs-snapshot-https\://repo.spring.io/libs-snapshot/.lastUpdated=1564292479750

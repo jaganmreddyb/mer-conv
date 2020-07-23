@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 19 15:46:50 SGT 2019
+OrderBookManager-0.0.1-SNAPSHOT.war>=
+OrderBookManager-0.0.1-SNAPSHOT.pom>=

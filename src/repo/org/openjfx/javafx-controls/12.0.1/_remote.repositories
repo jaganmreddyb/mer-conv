@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 14 21:27:52 SGT 2020
+javafx-controls-12.0.1.jar>central=
+javafx-controls-12.0.1-win.jar>central=
+javafx-controls-12.0.1.pom>central=
